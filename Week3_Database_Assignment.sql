@@ -4,7 +4,7 @@
 CREATE TABLE student (
     id INT PRIMARY KEY,
     fullName VARCHAR(100) NOT NULL,
-    age INT
+    age INT CHECK (age > 0)
 );
 
 -- Question 2: Insert at least 3 records
