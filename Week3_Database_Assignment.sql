@@ -3,7 +3,7 @@
 -- Question 1: Create the student table
 CREATE TABLE student (
     id INT PRIMARY KEY,
-    fullName VARCHAR(100),
+    fullName VARCHAR(100) NOT NULL,
     age INT
 );
 
